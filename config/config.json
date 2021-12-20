@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jquerydatatable-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jquerydatatable/JquerydatatableWebPart.js",
+          "manifest": "./src/webparts/jquerydatatable/JquerydatatableWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "JquerydatatableWebPartStrings": "lib/webparts/jquerydatatable/loc/{locale}.js"
+  }
+}
