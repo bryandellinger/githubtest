@@ -10,10 +10,11 @@
   },
   "dependencies": {
     "@microsoft/sp-core-library": "1.13.1",
+    "@microsoft/sp-lodash-subset": "1.13.1",
+    "@microsoft/sp-office-ui-fabric-core": "1.13.1",
     "@microsoft/sp-property-pane": "1.13.1",
     "@microsoft/sp-webpart-base": "1.13.1",
-    "@microsoft/sp-lodash-subset": "1.13.1",
-    "@microsoft/sp-office-ui-fabric-core": "1.13.1"
+    "@types/jquery": "^3.5.10"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "1.13.1",

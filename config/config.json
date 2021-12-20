@@ -11,7 +11,12 @@
       ]
     }
   },
-  "externals": {},
+  "externals": {
+    "jquery": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js",
+      "globalName": "jQuery"
+   }
+  },
   "localizedResources": {
     "JquerydatatableWebPartStrings": "lib/webparts/jquerydatatable/loc/{locale}.js"
   }
